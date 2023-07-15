@@ -1,4 +1,17 @@
 {
+  "packages": [
+    "packages/*",
+    "docs"
+  ],
   "version": "independent",
-  "npmClient": "yarn"
+  "stream": true,
+  "hoist": true,
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock"]
+    },
+    "publish": {
+      "ignoreChanges": ["**/stories/**", "**/tests/**"]
+    }
+  }
 }
