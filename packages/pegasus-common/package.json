@@ -1,6 +1,6 @@
 {
   "name": "pegasus-common",
-  "version": "0.0.5",
+  "version": "0.0.0",
   "source": "src/index.js",
   "main": "dist/index.cjs",
   "module": "dist/index.module.mjs",
@@ -13,6 +13,5 @@
   },
   "dependencies": {
     "faker": "^6.6.6"
-  },
-  "gitHead": "3de78d5a18bba4b4ecc49f38e9c9ba1490491038"
+  }
 }
