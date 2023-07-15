@@ -1,0 +1,1 @@
+No license is necessary.
