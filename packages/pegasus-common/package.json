@@ -1,6 +1,6 @@
 {
   "name": "pegasus-common",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "source": "src/index.js",
   "main": "dist/index.cjs",
   "module": "dist/index.module.mjs",
