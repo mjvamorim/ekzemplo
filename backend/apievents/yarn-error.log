@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/amorim/.nvm/versions/node/v20.4.0/bin/node /Users/amorim/.nvm/versions/node/v20.4.0/bin/yarn add express pegasus-common -W
+
+PATH: 
+  /Users/amorim/.nvm/versions/node/v20.4.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/amorim/.nvm/versions/node/v20.4.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pegasus-common: Not found
+      at params.callback [as _callback] (/Users/amorim/.nvm/versions/node/v20.4.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/amorim/.nvm/versions/node/v20.4.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (/Users/amorim/.nvm/versions/node/v20.4.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (/Users/amorim/.nvm/versions/node/v20.4.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1378:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "apievents",
+    "version": "1.0.0",
+    "main": "src/server.js",
+    "license": "MIT",
+    "scripts":{
+      "start":"node src/server.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

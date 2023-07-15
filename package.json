@@ -1,0 +1,14 @@
+{
+  "name": "pegasus",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^7.1.4",
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {}
+}
