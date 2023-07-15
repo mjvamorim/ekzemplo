@@ -1,5 +1,5 @@
-42 error Error: Command failed with exit code 128: git tag pegasus-common@0.0.1 -m pegasus-common@0.0.1
-42 error fatal: tag 'pegasus-common@0.0.1' already exists
+42 error Error: Command failed with exit code 128: git tag pegasus-common@0.0.2 -m pegasus-common@0.0.2
+42 error fatal: tag 'pegasus-common@0.0.2' already exists
 42 error     at makeError (/Users/amorim/workspace/nodejs/ekzemplo/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
 42 error     at handlePromise (/Users/amorim/workspace/nodejs/ekzemplo/node_modules/@lerna/child-process/node_modules/execa/index.js:118:26)
 42 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
