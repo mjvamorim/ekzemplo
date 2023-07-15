@@ -4,6 +4,7 @@ export const event = ()=>{
         id: faker.random.uuid(),
         name: faker.lorem.words(4),
         date: faker.date.future(),
+        email: faker.email()
     }
 }
 export const user = ()=>{
