@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "license": "MIT",
-  "scripts":{
-    "start":"node src/server.js"
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pegasus-common": "^0.1.0"
   }
 }
